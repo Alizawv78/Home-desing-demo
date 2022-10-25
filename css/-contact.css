@@ -1,0 +1,21 @@
+.container-fluad-custom {
+  background-color: #88785d;
+}
+.container-fluad-custom .contact span {
+  padding: 10px;
+}
+.container-fluad-custom .social-media a {
+  color: #e7e4d0;
+  padding: 11px;
+    transition: .5s ease;
+}
+.container-fluad-custom .social-media a:hover{
+     color: #141414;
+}
+.container-fluad-custom .contact i{
+  color: #e7e4d0;
+}
+.container-fluad-custom .contact span{
+  color: #313131;
+      font-size: 13px;
+}

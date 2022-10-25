@@ -1,0 +1,66 @@
+.footer-wrapper {
+  background-color: #453c2b;
+  min-height: 240px;
+}
+.footer-wrapper .footer-a {
+  top: 14px;
+  right: 65px;
+  font-size: 16px;
+  color: rgb(207, 207, 207);
+}
+.footer-wrapper .footer-a p {
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+.footer-wrapper .footer-p {
+  font-size: 13px;
+  color: rgb(130, 130, 130);
+}
+.footer-wrapper .center-footer .title-p {
+  color: #cfcfcf;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+.footer-wrapper .center-footer p {
+  color: rgb(130, 130, 130);
+  font-size: 14px;
+  padding-top: 10px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.center-footer ul li p:hover {
+  color: rgb(213, 213, 213);
+  padding-right: 15px;
+}
+.footer-wrapper .left-footer .title-p {
+  color: #cfcfcf;
+  font-size: 16px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+.footer-wrapper .left-footer .social-footer a {
+  color: rgb(130, 130, 130);
+  padding: 6px;
+  transition: 0.4s ease;
+}
+.footer-wrapper .left-footer .social-footer a:hover {
+  color: rgb(255, 255, 255);
+}
+.footer-wrapper .form-footer .button {
+  padding: 5px;
+  top: 20px;
+  right: 227px;
+  font-size: 11px;
+  background-color: #e1b632;
+  border: none;
+  cursor: pointer;
+}
+.footer-wrapper .form-footer .text {
+  padding: 3px;
+  border: none;
+}
+.footer-wrapper .copy-right {
+  font-size: 12px;
+  border-top: 1px solid rgb(95, 95, 95);
+  margin-top: 7px;
+  color: rgb(191, 191, 178);
+}

@@ -1,0 +1,81 @@
+.faq-right-side .section-right {
+  background-color: #efefef;
+  height: 250px;
+}
+.ul-section-right-side {
+  font-size: 18px;
+  color: #454545;
+}
+.ul-section-right-side li .p1-title {
+  top: 45px;
+  right: 70px;
+}
+.ul-section-right-side li .p2-title {
+  top: 105px;
+  right: 70px;
+}
+.ul-section-right-side li .p3-title {
+  top: 165px;
+  right: 70px;
+}
+.ul-section-right-side li .img-1 {
+  top: 39px;
+  right: 14px;
+}
+.ul-section-right-side li .img-2 {
+  top: 98px;
+  right: 14px;
+}
+.ul-section-right-side li .img-3 {
+  top: 156px;
+  right: 14px;
+}
+.faq-section-wrapper .faq-left-side .tabs {
+  overflow: hidden;
+  box-shadow: 1px 5px 15px 2px rgba(184, 164, 82, 0.05) !important;
+}
+.faq-section-wrapper .faq-left-side .tab {
+  color: rgb(70, 70, 70);
+  overflow: hidden;
+  font-size: 16px;
+}
+.faq-section-wrapper .faq-left-side .tab-label {
+  padding: 9px;
+  background-color: #dfd5c4;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  transition: 0.5s ease;
+}
+.faq-section-wrapper .faq-left-side .tab-label:hover {
+  background-color: #b1a085;
+}
+.faq-section-wrapper .faq-left-side .tab-label::after {
+  content: "\276f";
+  text-align: center;
+  transition: 0.5s ease;
+  float: left;
+  padding: 2px 0 0 0;
+}
+.faq-section-wrapper .faq-left-side .tab-contend {
+  height: 0;
+  background-color: rgb(243, 243, 243);
+  transition: 0.5s ease;
+  font-size: 13px;
+  color: rgb(80, 80, 80);
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-contend {
+  height: 80px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.faq-section-wrapper .faq-left-side input:checked + .tab-label::after {
+  transform: rotate(-90deg);
+}
+.faq-section-wrapper .faq-left-side input {
+  display: none;
+}
+.faq-section-wrapper .faq-left-side {
+  margin-top: 80px;
+}

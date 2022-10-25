@@ -1,0 +1,32 @@
+.topic-section-wrapper {
+  background-image: url(../img/backgrond.png);
+  min-height: 400px;
+}
+.topic-section-wrapper .card-header {
+  overflow: hidden;
+}
+.topic-wrapper .card-header img {
+  transition: 0.5s ease;
+}
+.topic-wrapper:hover img {
+  transform: scale(1.2) rotate(7deg);
+}
+.topic-wrapper .card-body a {
+  margin-top: 3px;
+  font-size: 15px;
+  margin: 11px;
+  color: #000;
+}
+.topic-wrapper .card-body p{
+    font-size: 11px;
+    padding: 7px;
+    color:rgb(72, 72, 72);
+}
+ .topic-wrapper .card-footer ul li{
+display: inline;
+padding: 5px;
+font-size: 13px;
+opacity: .4;
+ }
+ .topic-section-wrapper .section-title span{
+     margin: 0; }
